@@ -1,0 +1,55 @@
+@import "tailwindcss";
+@config '../tailwind.config.js';
+
+:root {
+  --main-bg: #2a3447;
+  --soft-bg: #384256;
+  --dark-bg: #222b3c;
+  --main-color: white;
+  --soft-color: #ddd;
+  --dark-color: #2a3447;
+  --primary: #eceeff;
+  --coral-red: #ff6452;
+  --slate-gray: #6d6d6d;
+  --pale-blue: #f5f6ff;
+  --white-400: rgba(255, 255, 255, 0.8);
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-palanquin: "Palanquin", sans-serif;
+}
+
+@layer base {
+  * {
+    margin: 0 auto;
+    max-width: 1440px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: var(--main-bg);
+  }
+}
+
+@layer components {
+  .max-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+/* 
+@theme {
+ BG 
+  --main-bg: "#2a3447",
+  --soft-bg: "#384256",
+  --dark-bg: "#222b3c",
+  TEXT 
+   --main-color: "white",
+  --soft-color: "#ddd",
+  --dark-color: "#2a3447",
+ --primary: "#ECEEFF",
+  --coral-red: "#FF6452",
+  --slate-gray: "#6D6D6D",
+  --pale-blue: "#F5F6FF",
+  --white-400: "rgba(255, 255, 255, 0.80)",
+  --font-montserrat : "montserrat", sans-serif,
+  --font-palanquin : "palanquin", "sans-serif", 
+}*/
