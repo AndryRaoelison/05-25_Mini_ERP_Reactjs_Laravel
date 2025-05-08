@@ -10,6 +10,7 @@ export default {
         "main-color": "var(--main-color)",
         "soft-color": "var(--soft-color)",
         "coral-red": "var(--coral-red)",
+        "dark-color": "var(--dark-color)",
         primary: "var(--primary)",
       },
       fontFamily: {

@@ -14,7 +14,7 @@ const Layout = () =>{
     <div >
       <Navbar/>
       <div className='flex'>
-        <div className='w-[250px] border-r-2'>
+        <div className='w-[250px] border-r-2 border-soft-bg'>
           <Menu/>
         </div >
         <div className='w-full'> 
@@ -27,9 +27,6 @@ const Layout = () =>{
 }
 
 function App() {
-
-
-
   return (
     <Router>
       <Routes>
