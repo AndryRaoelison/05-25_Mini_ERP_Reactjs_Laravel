@@ -40,6 +40,8 @@ This ERP system is being built as a long-term side project and will include:
 
 This project is open for educational and development purposes.
 
+---
+
 """"""""""""""""""""fr-FR"""""""""""""""""""""""""""""""""""
 # Tableau de bord - Mini ERP (En cours de développement)
 
