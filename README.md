@@ -1,54 +1,85 @@
-# React + TypeScript + Vite
+""""""""""""""""""""en-US"""""""""""""""""""""""""""""""""""
+# Mini ERP Dashboard (In Progress)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a work-in-progress front-end dashboard for a custom ERP (Enterprise Resource Planning) system.  
+Built with **ReactJS**, **TypeScript**, and **Tailwind CSS**, it aims to offer a clean, responsive interface to manage various internal operations for a business.
 
-Currently, two official plugins are available:
+Current Status:  
+The dashboard UI is under development. Back-end integration (planned with Laravel) and additional features will be added progressively.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Objectives
 
-## Expanding the ESLint configuration
+This ERP system is being built as a long-term side project and will include:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- A modern dashboard interface (current)
+- Leave management module
+- Work hours tracker (potentially linked to a time clock system)
+- Payroll system
+- Additional modules to be added gradually
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Technologies Used
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- **ReactJS** 
+- **TypeScript** 
+- **Tailwind CSS** 
+- **React Router DOM** – Routing and navigation  
+- **Recharts** – Data visualization (charts and graphs)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Project Notes
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- Only the front-end dashboard is being published for now.  
+- The Laravel back-end and business logic will be implemented in upcoming stages.  
+- Contributions, ideas or feedback are welcome.
+
+## Screenshots
+###Dashboard : 
+![image](https://github.com/user-attachments/assets/6dc24420-d47e-4818-ba9a-35feb53664e9)
+`Other screenshots will be added as UI progresses`
+
+## License
+
+This project is open for educational and development purposes.
+
+""""""""""""""""""""fr-FR"""""""""""""""""""""""""""""""""""
+# Tableau de bord - Mini ERP (En cours de développement)
+
+Ce projet est une interface front-end en cours de développement pour un système ERP (Enterprise Resource Planning) personnalisé.  
+Développé avec **ReactJS**, **TypeScript** et **Tailwind CSS**, il a pour objectif de fournir un tableau de bord moderne, responsive et évolutif destiné à la gestion interne d’une entreprise.
+
+## Statut du projet
+
+Le tableau de bord est actuellement en phase de construction.  
+Le back-end (prévu avec **Laravel**) ainsi que d'autres modules métiers seront ajoutés progressivement.
+
+## Objectifs du projet
+
+Ce mini ERP est un projet à long terme que je développe en parallèle de mes autres activités. Il comprendra à terme :
+
+- Une interface tableau de bord (en cours)
+- Un module de gestion des congés
+- Un compteur d’heures de travail (avec possibilité d’intégration d’un système de pointage)
+- Un système de paie
+- Et d’autres modules qui viendront s’ajouter au fur et à mesure
+
+## Technologies utilisées
+
+- **ReactJS** 
+- **TypeScript**  
+- **Tailwind CSS**  
+- **React Router DOM** – Gestion de la navigation  
+- **Recharts** – Visualisation des données (graphiques, courbes…)
+
+## Remarques
+
+- Seule la partie front-end est publiée pour l’instant.  
+- L’implémentation du back-end (Laravel) sera faite dans les étapes suivantes.  
+- Toute suggestion ou retour est le bienvenu.
+
+## Captures d’écran
+###Dashboard : 
+![image](https://github.com/user-attachments/assets/6dc24420-d47e-4818-ba9a-35feb53664e9)
+`D'autres sont à venir au fur et à mesure de l’avancement du design`
+
+## Licence
+
+Projet libre à usage pédagogique ou de développement.
