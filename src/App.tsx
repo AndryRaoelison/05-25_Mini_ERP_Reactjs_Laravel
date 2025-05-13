@@ -11,13 +11,13 @@ import Login from './pages/Login'
 
 const Layout = () =>{
   return(
-    <div >
+    <div>
       <Navbar/>
       <div className='flex'>
-        <div className='w-[250px] border-r-2 border-soft-bg'>
+        <div className='w-[200px] border-r-2 border-soft-bg'>
           <Menu/>
         </div >
-        <div className='w-full'> 
+        <div className='w-full '> 
           <Outlet/>
         </div>
       </div>
@@ -30,10 +30,13 @@ function App() {
   return (
     <Router>
       <Routes>
-      <Route element={<Layout/>} path='/'  >
-          <Route index element={<Home />} />
-          <Route path='products' element={<Products />} />
-          <Route path='users' element={<Users />} />
+      <Route element={<Layout/>} path='/'>
+          <Route index element={<Home />}/>
+          <Route path='products' element={<Products />}/>
+          <Route path='users' element={<Users />}/>
+          <Route path='/profile' element={<>profile </>}/>
+          <Route path='/orders' element={<>Orders </>}/>
+          <Route path='/posts' element={<>posts </>}/>
       </Route> 
       <Route  element={<Login/>} path='/login'/>
       </Routes>

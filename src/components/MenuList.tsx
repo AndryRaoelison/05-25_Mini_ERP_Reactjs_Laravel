@@ -18,8 +18,7 @@ const MenuList = ({ menuTitle, menuItems }: Props) => {
         <Link
           to={link}
           key={id}
-          className="flex items-center gap-2 cursor-pointer my-1 mx-0 rounded-sm px-2 py-1 hover:bg-soft-bg"
-        >
+          className="flex items-center gap-2 cursor-pointer my-1 mx-0 rounded-sm px-2 py-1 hover:bg-soft-bg">
           <img src={icon} alt={`${label}-icon`} className="h-[20px] mx-0" />
           <span className="mx-0 block">{label}</span>
         </Link>

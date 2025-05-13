@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className=" flex items-center justify-between">
       <div className="flex items-center p-[20px] gap-2 cursor-pointer   mx-0!">
         <img src={reactLogo} alt="react-logo" />
-        <h1>Dashboard</h1>
+        <h1 className="text-3xl font-semibold text-gray-300">Mini-Dashboard</h1>
       </div>
       <div className="flex gap-8  p-[20px] mx-0!">
         <img src={searchIcon} className="h-[30px] cursor-pointer  w-[30px]" alt="search-icon" />

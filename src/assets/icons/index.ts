@@ -11,6 +11,8 @@ import chartBoxUserIcon from './user-list.svg'
 import chartBoxProductIcon from './box-icon.svg'
 import chartBoxRevenueIcon from './revenue.svg'
 import chartBoxConversionIcon from './calculator.svg'
+import barChartVisitIcon from './visit_icons.svg'
+
 
 
 
@@ -19,4 +21,6 @@ export { reactLogo,searchIcon,
     homeIcon,profileMenuIcon,
     usersIcon,orderIcon,commentsIcon,
     chartBoxUserIcon,chartBoxProductIcon,
-    chartBoxRevenueIcon,chartBoxConversionIcon};
+    chartBoxRevenueIcon,chartBoxConversionIcon,
+    barChartVisitIcon
+};

@@ -1,4 +1,6 @@
-import { homeIcon, orderIcon, profileMenuIcon, usersIcon, commentsIcon, chartBoxUserIcon, chartBoxProductIcon, chartBoxRevenueIcon, chartBoxConversionIcon } from "./assets/icons";
+import { homeIcon, orderIcon, profileMenuIcon, usersIcon, commentsIcon,
+     chartBoxUserIcon, chartBoxProductIcon, chartBoxRevenueIcon,
+     chartBoxConversionIcon } from "./assets/icons";
 import { janedoe1, janedoe2, janedoe3, johndoe } from "./assets/images";
 
 //--------Data for top deals menu sidebar
@@ -189,6 +191,8 @@ export const chartBoxUser = {
       { name: "Sat", revenue: 450 },
     ],
   };
+
+//--------Data for Product conversion (total ratio) at homepage
   export const chartBoxConversion = {
     color: "#ac7d2a",
     icon: chartBoxConversionIcon,
@@ -206,4 +210,78 @@ export const chartBoxUser = {
       { name: "Sat", ratio: 350 },
     ],
   };
+
+//--------Data for total visit at homepage
+  export const barChartVisit = {
+  title: "Total Visit",
+  color: "#FF8042",
+  dataKey: "visit",
+  chartData: [
+    {
+      name: "Jan",
+      visit: 4000,
+    },
+    {
+      name: "Feb",
+      visit: 3000,
+    },
+    {
+      name: "Mar",
+      visit: 2000,
+    },
+    {
+      name: "Apr",
+      visit: 2780,
+    },
+    {
+      name: "May",
+      visit: 1890,
+    },
+    {
+      name: "Jun",
+      visit: 2390,
+    },
+    {
+      name: "Jul",
+      visit: 3490,
+    },
+    ],
+};
+
+//--------Data for total revenue at homepage
+export const barChartBoxRevenue = {
+  title: "Profit Earned",
+  color: "#8884d8",
+  dataKey: "profit",
+  chartData: [
+    {
+      name: "Jan",
+      profit: 4000,
+    },
+    {
+      name: "Feb",
+      profit: 3000,
+    },
+    {
+      name: "Mar",
+      profit: 2000,
+    },
+    {
+      name: "Apr",
+      profit: 2780,
+    },
+    {
+      name: "May",
+      profit: 1890,
+    },
+    {
+      name: "Jun",
+      profit: 2390,
+    },
+    {
+      name: "Jul",
+      profit: 3490,
+    },
+  ],
+};
   
